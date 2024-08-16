@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: "Lato", sans-serif;
+}
+.header , .headerUl , .rDiv , .lDiv    {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header {
+    padding: 15px 95px;
+}
+.lDiv {
+    gap : 20px;
+}
+.rDiv{
+    gap: 50px;
+}
+.headerUl {
+    font-size : 18px ;
+    font-weight: 400;
+    line-height: 28px;
+    gap : 70px ;
+}
+.btnDiv {
+    display: flex;
+    gap: 15px;
+}
+.loginBtn {
+    padding: 10px 50px;
+    color : #2E95FD ;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    border-color: #2e95fd57;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.loginBtn:hover {
+    background-color:#2e95fd12 ;
+    border-color: #2e95fd55;
+    transition: .5s;
+}
+.signUpBtn {
+    padding: 10px 50px;
+    color : #ffffff ;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #2E95FD;
+    border-color: #2e95fd57;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signUpBtn:hover {
+    background-color:#216cb7 ;
+    transition: .5s;
+}
+.p1Div1 {
+    display: flex;
+    height: 540px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F5FB;
+    margin: auto;
+    border-radius: 15px;
+}
+.d1LDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px 0px 90px 90px;
+}
+.d1LDiv h1 {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    
+}
+.d1LDiv span {
+    color : #2e95fd;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 36px;
+    
+}
+.d1LDiv p {
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.d1LDiv button {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 36px;
+    padding: 15px 35px;
+    color: #ffffff;
+    background-color: #2E95FD;
+    border-style: none;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+}
+.d1LDiv button:hover {
+    background-color:#216cb7 ;
+    transition: .5s;
+}
+
+.img {
+    height: 560px;
+    width: 500px;
+    padding-right: 40px;
+}
+.p1Div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.p1Div2 h2{
+    color: #121037;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 39px;
+    
+}
+.cardsDiv {
+    display: flex;
+    gap: 180px;
+    margin-top: 120px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    
+}
+.card img {
+    margin: auto;
+    margin-bottom: 30px;
+}
+.card h3 {
+    font-size: 16px;
+    font-weight: 900;
+    line-height : 30px ;
+    margin-bottom: 8px;
+}
+.card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height : 22px ;
+}
+.p1Div2 button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 8px;
+    color: #ffffff;
+    background-color: #2E95FD;
+    border-style: none;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    cursor: pointer;
+}
+.p1Div2 button:hover {
+    background-color:#216cb7 ;
+    transition: .5s;
+}
+
+.cardsDiv2{
+    display: flex;
+    gap: 60px;
+    margin-top: 80px;
+}
+.card2 {
+        display: flex;
+        flex-direction: column;  
+        width: 300px;
+}
+/* -------------------- */
+.card2 .div1img {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 318px;
+    height: 178px;
+    background-image: url("https://brainmanager.io/_next/static/media/career.d8741105.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.card2 .div1img:hover{
+    background-image: url("./career_active.1136fd07.svg");
+}
+
+.card2 .div2img {
+
+    margin-bottom: 30px;
+    width: 318px;
+    height: 178px;
+    background-image: url("./burnout.5f28b306.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.card2 .div2img:hover{
+    background-image: url("./burnout_active.f284ce60.\(2\)svg.svg");
+}
+.card2 .div3img {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 318px;
+    height: 178px;
+    background-image: url("https://brainmanager.io/_next/static/media/know_more.00b92d47.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+.card2 .div3img:hover{
+    background-image: url("./know_more_active.fa4ccb31\(3\).svg");
+}
+/* --------------------- */
+.card2 h3 {
+    font-size: 16px;
+    font-weight: 900;
+    line-height : 30px ;
+    margin-bottom: 8px;
+}
+.card2 p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height : 22px ;
+}
+.p1Div3 h2 {
+    color: #121037;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 39px;
+    margin-top: 70px;
+}
+.p1Div3 button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 8px;
+    color :#2E95FD ;
+    border-color: #2e95fd95;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 100px;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.p1Div3 button:hover {
+    background-color:#2e95fd12 ;
+    border-color: #2e95fd55;
+    transition: .5s;
+
+}
+
+.p1Div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #2e95fd22;
+    width: 1252px;
+    margin: auto;
+    margin-bottom: 90px;
+    
+}
+.p1Div4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F4F5FB;
+    border-radius: 10px;
+}
+.p1Div4 h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-top: 120px;
+}
+.p1Div4 h2 span {
+    color: #2e95fd;
+}
+.grid {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 60px;
+    margin-bottom: 60px;
+}
+.gridCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #2e95fd14;
+    border-radius: 10px ;
+    padding: 60px 40px 100px 40px ;
+}
+.gridCard h1 {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+    text-align: center;
+}
+.gridCard p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+.gridCard img {
+    width: 30px;
+    height: 30px;
+}
+.p1Div5{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 170px;
+}
+
+.p1Div5 .lDiv3 h2 {
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 30px;
+    
+}
+.p1Div5 .lDiv3 h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 90px;
+}
+.p1Div5 button {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 36px;
+    color: #ffffff;
+    padding:15px 30px 15px 50px ;
+    background-color: #2E95FD;
+    border-style: none;
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.p1Div5 button:hover {
+    background-color:#216cb7 ;
+    transition: .5s;
+}
+.p1Div5 button span{
+    font-size: 30px;
+    font-weight:200;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    background-color: #E5EEFB;
+    padding-top: 30px;
+}
+.logoUl {
+    padding-right: 230px;
+}
+.footer .logoUl div {
+    display: flex;
+    gap: 15px;
+}
+.footer .logoUl div h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.footer .logoUl p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 20px;
+}
+.footer span {
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 30px;
+}
+.footer li {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        padding: 5px 0px 5px 0;
+        
+} 
+.paymentDiv{
+    display: flex;
+    flex-direction: column;
+    padding-left: 90px;
+}
+.payment {
+    width: 80px;
+}
+.footer2 {
+    background-color: #E5EEFB;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.list {
+    width: 500px;
+    box-shadow: 10px 10px  10px rgba(171, 166, 166, 0.73);
+    border-radius: 10px;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+    right: 170px;
+    background-color: #ffffff;
+    transform: translateX(800px);
+}
+.transform {
+    transform: translateX(0px);
+    transition: .5s;
+}
+
+.list li {
+    padding-left: 70px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 56px;
+    cursor: pointer;
+}
+.list li:hover {
+    background-color:#369afd ;
+    color: #ffffff;
+    transition: .4s;
+}
+.hidden {
+    visibility: hidden;
+}
+
+
+
+
+
